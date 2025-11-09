@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/smmonster/retailMedia.git/static/css/main.80c0d401.css",
+    "main.js": "/smmonster/retailMedia.git/static/js/main.4f54bb7e.js",
+    "static/js/453.d72d74f7.chunk.js": "/smmonster/retailMedia.git/static/js/453.d72d74f7.chunk.js",
+    "index.html": "/smmonster/retailMedia.git/index.html",
+    "main.80c0d401.css.map": "/smmonster/retailMedia.git/static/css/main.80c0d401.css.map",
+    "main.4f54bb7e.js.map": "/smmonster/retailMedia.git/static/js/main.4f54bb7e.js.map",
+    "453.d72d74f7.chunk.js.map": "/smmonster/retailMedia.git/static/js/453.d72d74f7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80c0d401.css",
+    "static/js/main.4f54bb7e.js"
+  ]
+}
