@@ -40,14 +40,14 @@ const GUIDE_INFO = {
       "3) 포맷: JPG, JPEG, PNG",
       "4) 추가 검수 사항:",
     ],
-    sub: [
-      "<span style='color:#2563eb;font-weight:600'>파일명과 소재 내 텍스트가 어느 정도 유사한지 확인</span>",
-      "좌측 텍스트 / 우측 오브젝트로 구성. 오브젝트는 상/하/좌/우 최소 여백 가이드를 준수하는지 확인",
-      "<b>하단 뱃지는 사이즈/스타일/위치 변경 없이 문구만 수정되었는지 확인</b>" +
-      " <span class='guide-tip'> (뱃지보기)" +
-        "   <img class='guide-tip-img' src='/homeTop_cta_guide.png' />" +
-        " </span>"
-    ],
+sub: [
+  "<span style='color:#2563eb;font-weight:600'>파일명과 소재 내 텍스트가 어느 정도 유사한지 확인</span>",
+  "좌측 텍스트 / 우측 오브젝트로 구성. 오브젝트는 상/하/좌/우 최소 여백 가이드를 준수하는지 확인",
+  `<b>하단 뱃지는 사이즈/스타일/위치 변경 없이 문구만 수정되었는지 확인</b>
+   <span class='guide-tip'>(뱃지보기)
+     <img class='guide-tip-img' src='${process.env.PUBLIC_URL}/homeTop_cta_guide.png' />
+   </span>`
+],
   },
   subTop: {
     title: "가이드 요약",
@@ -76,14 +76,11 @@ sub: [
       "3) 포맷: JPG, JPEG, PNG",
       "4) 추가 검수 사항:",
     ],
-sub: [
-  "하단 <b>행동유도버튼</b> 은 수동 검수 제외. 메인 이미지만 검수 진행",
-  "<span style='color:#2563eb;font-weight:600'>파일명과 소재 내 텍스트가 어느 정도 유사한지 확인</span>",
-  `<span style='color:#2563eb;font-weight:600'>해상도에 따라 상하좌우 일부 영역이 가려보일 수 있으며, 주요 CREATIVE 가 SAFE AREA 가이드에 맞게 제작되었는지 확인</span>
-   <span class='guide-tip'>(예시보기)
-     <img class='guide-tip-img' src='${process.env.PUBLIC_URL}/subTop_safearea_guide.png' />
-   </span>`
-],
+    sub: [
+      "하단 <b>행동유도버튼</b> 은 수동 검수 제외. 메인 이미지만 검수 진행",
+      "<span style='color:#2563eb;font-weight:600'>파일명과 소재 내 텍스트가 어느 정도 유사한지 확인</span>",
+      "해상도에 따라 상하좌우 일부 영역이 가려보일 수 있으며, <span style='color:#2563eb;font-weight:600'>주요 CREATIVE 가 SAFE AREA 가이드에 맞게 제작되었는지 확인</span>"
+    ],
   },
 };
 const SPEC_LIST = Object.values(BANNER_SPECS);
