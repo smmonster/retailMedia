@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/retailMedia/static/css/main.80c0d401.css",
-    "main.js": "/retailMedia/static/js/main.89fdbb0c.js",
+    "main.js": "/retailMedia/static/js/main.223e01b8.js",
     "static/js/453.d72d74f7.chunk.js": "/retailMedia/static/js/453.d72d74f7.chunk.js",
     "index.html": "/retailMedia/index.html",
     "main.80c0d401.css.map": "/retailMedia/static/css/main.80c0d401.css.map",
-    "main.89fdbb0c.js.map": "/retailMedia/static/js/main.89fdbb0c.js.map",
+    "main.223e01b8.js.map": "/retailMedia/static/js/main.223e01b8.js.map",
     "453.d72d74f7.chunk.js.map": "/retailMedia/static/js/453.d72d74f7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.80c0d401.css",
-    "static/js/main.89fdbb0c.js"
+    "static/js/main.223e01b8.js"
   ]
 }
