@@ -2,7 +2,7 @@
   "name": "retailmedia_subtop",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/smmonster/retailMedia.git",
+  "homepage": "https://smmonster.github.io/retailMedia",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",

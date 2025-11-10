@@ -142,9 +142,9 @@ function toHexColor(r, g, b) {
 }
 
 function getGuideSrc(type) {
-  if (type === "homeTop") return "/homeTop_guide.png";
-  if (type === "subTop") return "/subTop_guide.png";
-  if (type === "homeSubBottom") return "/homeSubBottom_guide.png";
+  if (type === "homeTop") return "homeTop_guide.png";
+  if (type === "subTop") return "subTop_guide.png";
+  if (type === "homeSubBottom") return "homeSubBottom_guide.png";
   return null;
 }
 
