@@ -107,32 +107,15 @@ body {
 }
 
 .ad-area-inner {
-  padding: 4px 8px;
+  padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 /* 서브 상단(750x160) 광고 영역 안의 이미지 border 제거 */
 .ad-area .thumb-wrap {
   border: none;
-}
-.ad-area-inner {
-  padding: 0; /* 필요하면 0으로 줄여도 됨 */
-}
-
-.thumb-wrap {
-  position: relative;
-  border: 1px solid var(--line);
-  border-radius: 4px;
-  overflow: hidden;
-  background: #fff;
-}
-
-.thumb {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
 }
 
 /* 가이드 오버레이 */
@@ -143,19 +126,6 @@ body {
   height: 100%;
   object-fit: cover;
   pointer-events: none;
-}
-
-/* 서브 상단 광고 영역 안의 썸네일 border 제거 */
-.ad-area .thumb-wrap {
-  border: none;
-}
-
-.ad-area-frame {
-  display: inline-block;
-  padding: 4px;                 /* 광고 영역 바깥 여백 */
-  border: 1px dashed #d1d5db;   /* 경계선 (연한 점선) */
-  border-radius: 4px;
-  box-sizing: content-box;
 }
 
 /* 서브 상단 광고 영역 시각화 컨테이너 */
@@ -238,15 +208,6 @@ body {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
-.guide-info-title {
-  font-weight: 600;
-  font-size: 12.5px;
-  margin-bottom: 6px;
-  color: #111827;
-  border-left: 3px solid #2563eb;
-  padding-left: 6px;
-}
-
 .guide-info-list {
   list-style: none;
   margin: 0;
@@ -317,14 +278,6 @@ body {
 /* ✅ 클릭된 상태일 때만 표시 */
 .guide-tip.active .guide-tip-img {
   display: block;
-}
-
-.thumb-name {
-  font-size: 11.5px;
-  color: #1f2937;
-  text-align: center;
-  margin-bottom: 6px;
-  word-break: break-all;
 }
 
 .thumb-name-label {
